@@ -1,0 +1,1 @@
+export const flatten = (arr) => arr.toString().split(',').filter(e => e !== '').map(Number)
